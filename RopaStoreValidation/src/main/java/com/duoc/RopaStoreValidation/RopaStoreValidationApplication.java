@@ -9,5 +9,4 @@ public class RopaStoreValidationApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(RopaStoreValidationApplication.class, args);
 	}
-
 }
