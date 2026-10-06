@@ -7,7 +7,7 @@ import com.duoc.RopaStoreValidation.model.Producto;
 import com.duoc.RopaStoreValidation.repository.ProductoRepository;
 
 @Service
-    public class ProductoService {
+public class ProductoService {
 
     private final ProductoRepository productoRepository;
 
@@ -56,4 +56,4 @@ import com.duoc.RopaStoreValidation.repository.ProductoRepository;
         productoRepository.deleteById(id);
         return true;
     }
-    }
+}
